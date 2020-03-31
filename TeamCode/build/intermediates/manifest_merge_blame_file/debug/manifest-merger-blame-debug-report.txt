@@ -1,0 +1,678 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Note: the actual manifest file used in your APK merges this file with contributions
+4     from the modules on which your app depends (such as FtcRobotController, etc).
+5     So it won't ultimately be as empty as it might here appear to be :-)
+6-->
+7<!-- The package name here determines the package for your R class and your BuildConfig class -->
+8<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+9    package="com.qualcomm.ftcrobotcontroller"
+10    android:versionCode="36"
+11    android:versionName="5.4" >
+12
+13    <uses-sdk
+14        android:minSdkVersion="24"
+14-->/Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
+15        android:targetSdkVersion="28" />
+15-->/Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
+16
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-81
+17-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-78
+18    <uses-permission
+18-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:11:5-13:35
+19        android:name="android.permission.ACCESS_WIFI_STATE"
+19-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:12:9-60
+20        android:required="true" />
+20-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:13:9-32
+21    <uses-permission
+21-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:14:5-16:35
+22        android:name="android.permission.CHANGE_WIFI_STATE"
+22-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:15:9-60
+23        android:required="true" />
+23-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:16:9-32
+24    <uses-permission android:name="android.permission.BLUETOOTH" />
+24-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:17:5-68
+24-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:17:22-65
+25    <uses-permission
+25-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:18:5-20:35
+26        android:name="android.permission.ACCESS_NETWORK_STATE"
+26-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:19:9-63
+27        android:required="true" />
+27-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:20:9-32
+28    <uses-permission
+28-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:21:5-23:35
+29        android:name="android.permission.CHANGE_NETWORK_STATE"
+29-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:22:9-63
+30        android:required="true" />
+30-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:23:9-32
+31    <uses-permission
+31-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:24:5-26:35
+32        android:name="android.permission.INTERNET"
+32-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:25:9-51
+33        android:required="true" /> <!-- Classified as Dangerous Permission in SDK 26 -->
+33-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:26:9-32
+34    <uses-permission
+34-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:29:5-31:35
+35        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+35-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:30:9-65
+36        android:required="true" /> <!-- Classified as Dangerous Permission in SDK 26 -->
+36-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:31:9-32
+37    <uses-permission
+37-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:33:5-35:35
+38        android:name="android.permission.READ_EXTERNAL_STORAGE"
+38-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:34:9-64
+39        android:required="true" /> <!-- Classified as System Permission in SDK 26 -->
+39-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:35:9-32
+40    <uses-permission
+40-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:38:5-40:35
+41        android:name="android.permission.WRITE_SETTINGS"
+41-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:39:9-57
+42        android:required="true" /> <!-- see AppUtil.setTimeZone() -->
+42-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:40:9-32
+43    <uses-permission
+43-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:43:5-45:35
+44        android:name="android.permission.SET_TIME_ZONE"
+44-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:44:9-56
+45        android:required="true" />
+45-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:45:9-32
+46    <!--
+47  Note: we suspect that this (android.permission.WAKE_LOCK) is no
+48  longer needed, but haven't yet found the time necessary to verify
+49  that assertion before removing it
+50    -->
+51    <uses-permission
+51-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:52:5-54:35
+52        android:name="android.permission.WAKE_LOCK"
+52-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:53:9-52
+53        android:required="true" />
+53-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:54:9-32
+54    <uses-permission android:name="android.permission.CAMERA" />
+54-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:55:5-65
+54-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:55:22-62
+55    <uses-permission
+55-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:56:5-58:35
+56        android:name="android.permission.ACCESS_COARSE_LOCATION"
+56-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:57:9-65
+57        android:required="true" />
+57-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:58:9-32
+58    <uses-permission
+58-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:59:5-61:35
+59        android:name="android.permission.ACCESS_FINE_LOCATION"
+59-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:60:9-63
+60        android:required="true" />
+60-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:61:9-32
+61    <uses-permission
+61-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:62:5-64:35
+62        android:name="android.permission.READ_PHONE_STATE"
+62-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:63:9-59
+63        android:required="true" />
+63-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:64:9-32
+64    <uses-permission
+64-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:65:5-67:35
+65        android:name="com.revrobotics.permission.UPDATE_CONTROL_HUB"
+65-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:66:9-69
+66        android:required="true" />
+66-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:67:9-32
+67
+68    <uses-feature android:name="android.hardware.usb.accessory" />
+68-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:69:5-67
+68-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:69:19-64
+69    <uses-feature android:glEsVersion="0x00020000" />
+69-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:70:5-54
+69-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:70:19-51
+70    <!--
+71        NOTE: Any application that requests the CAMERA permission but does not
+72        declare any camera features with the <uses-feature> element will be
+73        assumed to use all camera features (auto-focus and flash). Thus, the
+74        application will not be compatible with devices that do not support
+75        all camera features. We use <uses-feature> to declare only the
+76        camera features that our application does need. For instance, if you
+77        request the CAMERA permission, but you do not need auto-focus or
+78        flash, then declare only the android.hardware.camera feature. The
+79        other camera features that you do not request will no longer be
+80        assumed as required.
+81    -->
+82    <uses-feature android:name="android.hardware.camera" />
+82-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:84:5-60
+82-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:84:19-57
+83
+84    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+84-->[:Inspection-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/39e9c5a7f97a8f04077398f79f2dfa20/Inspection-release/AndroidManifest.xml:12:5-74
+84-->[:Inspection-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/39e9c5a7f97a8f04077398f79f2dfa20/Inspection-release/AndroidManifest.xml:12:22-71
+85
+86    <application
+86-->/Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml:11:5-19
+87        android:name="org.firstinspires.ftc.robotcore.internal.system.RobotApplication"
+87-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:86:18-97
+88        android:allowBackup="true"
+88-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-35
+89        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+89-->[com.android.support:support-compat:28.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/4e7b3bbed8e6e29e2ba6d4fc6e8eccff/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+90        android:debuggable="true"
+91        android:extractNativeLibs="false"
+92        android:icon="@drawable/ic_launcher"
+92-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-45
+93        android:label="@string/app_name"
+93-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-41
+94        android:largeHeap="true"
+94-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-33
+95        android:testOnly="true"
+96        android:theme="@style/AppThemeRedRC" > <!-- Indicates to the ControlHubUpdater what the latest version of the Control Hub is that this app supports -->
+96-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-45
+97        <meta-data
+97-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-24:33
+98            android:name="org.firstinspires.latestSupportedControlHubVersion"
+98-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-78
+99            android:value="1" /> <!-- The main robot controller activity -->
+99-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-30
+100        <activity
+100-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-38:20
+101            android:name="org.firstinspires.ftc.robotcontroller.internal.PermissionValidatorWrapper"
+101-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-101
+102            android:configChanges="orientation|screenSize"
+102-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-59
+103            android:label="@string/app_name"
+103-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-45
+104            android:launchMode="singleTask"
+104-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-44
+105            android:screenOrientation="fullUser" >
+105-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-49
+106            <intent-filter>
+106-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-37:29
+107                <category android:name="android.intent.category.LAUNCHER" />
+107-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:17-77
+107-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:27-74
+108
+109                <action android:name="android.intent.action.MAIN" />
+109-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-69
+109-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:25-66
+110            </intent-filter>
+111        </activity>
+112        <activity
+112-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-57:20
+113            android:name="org.firstinspires.ftc.robotcontroller.internal.FtcRobotControllerActivity"
+113-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-101
+114            android:configChanges="orientation|screenSize"
+114-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-59
+115            android:label="@string/app_name"
+115-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-45
+116            android:launchMode="singleTask"
+116-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-44
+117            android:screenOrientation="fullUser" >
+117-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:13-49
+118            <intent-filter>
+118-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-47:29
+119                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+119-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:17-90
+119-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:25-87
+120            </intent-filter>
+121
+122            <meta-data
+122-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:13-51:57
+123                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+123-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:50:17-79
+124                android:resource="@xml/device_filter" />
+124-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:17-54
+125
+126            <!-- org.firstinspires.main.entry indicates that this app is compatible with the Dragonboard Control Hub -->
+127            <meta-data
+127-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:13-56:40
+128                android:name="org.firstinspires.main.entry"
+128-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:17-60
+129                android:value="true" />
+129-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:17-37
+130        </activity> <!-- The robot controller service in which most of the robot functionality is managed -->
+131        <service
+131-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:9-62:38
+132            android:name="com.qualcomm.ftccommon.FtcRobotControllerService"
+132-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-76
+133            android:enabled="true" /> <!-- Service that keeps desktop folders up to date with respect to actual phone file system contents -->
+133-->[:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:13-35
+134        <service
+134-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:89:9-91:38
+135            android:name="org.firstinspires.ftc.robotcore.internal.files.MediaTransferProtocolMonitorService"
+135-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:90:13-110
+136            android:enabled="true" />
+136-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:91:13-35
+137
+138        <meta-data
+138-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:93:9-95:41
+139            android:name="autoStartService.org.firstinspires.ftc.robotcore.internal.files.MediaTransferProtocolMonitorService"
+139-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:94:13-127
+140            android:value="BOTH|1000" /> <!-- Service that provides build services for OnBotJava -->
+140-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:95:13-38
+141        <service
+141-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:98:9-100:38
+142            android:name="org.firstinspires.ftc.onbotjava.OnBotJavaService"
+142-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:99:13-76
+143            android:enabled="true" />
+143-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:100:13-35
+144
+145        <meta-data
+145-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:102:9-104:39
+146            android:name="autoStartService.org.firstinspires.ftc.onbotjava.OnBotJavaService"
+146-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:103:13-93
+147            android:value="RC|2000" />
+147-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:104:13-36
+148
+149        <receiver
+149-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:106:9-113:20
+150            android:name="org.firstinspires.ftc.robotserver.internal.webserver.controlhubupdater.ChUpdaterCommManager$ChUpdaterBroadcastReceiver"
+150-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:107:13-146
+151            android:exported="true"
+151-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:108:13-36
+152            android:permission="android.permission.INSTALL_PACKAGES" >
+152-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:109:13-69
+153            <intent-filter>
+153-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:110:13-112:29
+154                <action android:name="com.revrobotics.controlhubupdater.broadcast.RESULT_BROADCAST" />
+154-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:111:17-103
+154-->[:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:111:25-100
+155            </intent-filter>
+156        </receiver>
+157
+158        <activity
+158-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:26:9-30:20
+159            android:name="com.qualcomm.ftccommon.FtcRobotControllerSettingsActivity"
+159-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:27:13-85
+160            android:exported="true"
+160-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:28:13-36
+161            android:label="@string/settings_activity" >
+161-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:29:13-54
+162        </activity>
+163        <activity
+163-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:31:9-36:20
+164            android:name="com.qualcomm.ftccommon.configuration.FtcLoadFileActivity"
+164-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:32:13-84
+165            android:configChanges="orientation|screenSize"
+165-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:33:13-59
+166            android:exported="true"
+166-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:34:13-36
+167            android:label="@string/configure_activity" >
+167-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:35:13-55
+168        </activity>
+169        <activity
+169-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:37:9-42:20
+170            android:name="com.qualcomm.ftccommon.configuration.ConfigureFromTemplateActivity"
+170-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:38:13-94
+171            android:configChanges="orientation|screenSize"
+171-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:39:13-59
+172            android:exported="true"
+172-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:40:13-36
+173            android:label="@string/title_activity_configfromtemplate" >
+173-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:41:13-70
+174        </activity>
+175        <activity
+175-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:43:9-48:20
+176            android:name="com.qualcomm.ftccommon.ViewLogsActivity"
+176-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:44:13-67
+177            android:configChanges="orientation|screenSize"
+177-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:45:13-59
+178            android:exported="true"
+178-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:46:13-36
+179            android:label="@string/view_logs_activity" >
+179-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:47:13-55
+180        </activity>
+181        <activity
+181-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:49:9-53:20
+182            android:name="com.qualcomm.ftccommon.configuration.FtcConfigurationActivity"
+182-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:50:13-89
+183            android:configChanges="orientation|screenSize"
+183-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:51:13-59
+184            android:label="@string/app_name" >
+184-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:52:13-45
+185        </activity>
+186        <activity
+186-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:54:9-58:20
+187            android:name="com.qualcomm.ftccommon.configuration.FtcNewFileActivity"
+187-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:55:13-83
+188            android:configChanges="orientation|screenSize"
+188-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:56:13-59
+189            android:label="@string/app_name" >
+189-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:57:13-45
+190        </activity>
+191        <activity
+191-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:59:9-62:73
+192            android:name="com.qualcomm.ftccommon.ConfigWifiDirectActivity"
+192-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:60:13-75
+193            android:exported="true"
+193-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:61:13-36
+194            android:label="@string/title_activity_config_wifi_direct" />
+194-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:62:13-70
+195        <activity
+195-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:63:9-67:20
+196            android:name="com.qualcomm.ftccommon.FtcAdvancedRCSettingsActivity"
+196-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:64:13-80
+197            android:exported="true"
+197-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:65:13-36
+198            android:label="@string/titleAdvancedRCSettings" >
+198-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:66:13-60
+199        </activity>
+200        <activity
+200-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:68:9-71:20
+201            android:name="com.qualcomm.ftccommon.FtcLynxFirmwareUpdateActivity"
+201-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:69:13-80
+202            android:exported="true" >
+202-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:70:13-36
+203        </activity>
+204        <activity
+204-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:72:9-75:20
+205            android:name="com.qualcomm.ftccommon.FtcLynxModuleAddressUpdateActivity"
+205-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:73:13-85
+206            android:exported="true" >
+206-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:74:13-36
+207        </activity>
+208        <activity
+208-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:76:9-80:20
+209            android:name="com.qualcomm.ftccommon.FtcWifiDirectChannelSelectorActivity"
+209-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:77:13-87
+210            android:exported="true"
+210-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:78:13-36
+211            android:label="@string/title_activity_wifi_channel_selector" >
+211-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:79:13-73
+212        </activity>
+213        <activity
+213-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:81:9-85:20
+214            android:name="com.qualcomm.ftccommon.FtcWifiDirectRememberedGroupsActivity"
+214-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:82:13-88
+215            android:exported="true"
+215-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:83:13-36
+216            android:label="@string/title_activity_wifi_remembered_groups_editor" >
+216-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:84:13-81
+217        </activity>
+218        <activity
+218-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:86:9-89:20
+219            android:name="com.qualcomm.ftccommon.AboutActivity"
+219-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:87:13-64
+220            android:label="@string/about_activity" >
+220-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:88:13-51
+221        </activity>
+222        <activity
+222-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:90:9-93:20
+223            android:name="com.qualcomm.ftccommon.FtcAboutActivity"
+223-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:91:13-67
+224            android:label="@string/ftc_about_activity" >
+224-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:92:13-55
+225        </activity>
+226        <activity
+226-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:94:9-99:20
+227            android:name="com.qualcomm.ftccommon.configuration.EditSwapUsbDevices"
+227-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:95:13-83
+228            android:configChanges="orientation|screenSize"
+228-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:96:13-59
+229            android:label="@string/edit_swap_devices_activity"
+229-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:97:13-63
+230            android:windowSoftInputMode="stateHidden" >
+230-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:98:13-54
+231        </activity>
+232        <activity
+232-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:100:9-105:20
+233            android:name="com.qualcomm.ftccommon.configuration.EditMotorControllerActivity"
+233-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:101:13-92
+234            android:configChanges="orientation|screenSize"
+234-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:102:13-59
+235            android:label="@string/edit_motor_controller_activity"
+235-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:103:13-67
+236            android:windowSoftInputMode="stateHidden" >
+236-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:104:13-54
+237        </activity>
+238        <activity
+238-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:106:9-111:20
+239            android:name="com.qualcomm.ftccommon.configuration.EditLegacyMotorControllerActivity"
+239-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:107:13-98
+240            android:configChanges="orientation|screenSize"
+240-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:108:13-59
+241            android:label="@string/edit_motor_controller_activity"
+241-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:109:13-67
+242            android:windowSoftInputMode="stateHidden" >
+242-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:110:13-54
+243        </activity>
+244        <activity
+244-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:112:9-117:20
+245            android:name="com.qualcomm.ftccommon.configuration.EditMotorListActivity"
+245-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:113:13-86
+246            android:configChanges="orientation|screenSize"
+246-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:114:13-59
+247            android:label="@string/edit_motor_controller_activity"
+247-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:115:13-67
+248            android:windowSoftInputMode="stateHidden" >
+248-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:116:13-54
+249        </activity>
+250        <activity
+250-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:118:9-123:20
+251            android:name="com.qualcomm.ftccommon.configuration.EditServoControllerActivity"
+251-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:119:13-92
+252            android:configChanges="orientation|screenSize"
+252-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:120:13-59
+253            android:label="@string/edit_servo_controller_activity"
+253-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:121:13-67
+254            android:windowSoftInputMode="stateHidden|adjustResize" >
+254-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:122:13-67
+255        </activity>
+256        <activity
+256-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:124:9-129:20
+257            android:name="com.qualcomm.ftccommon.configuration.EditLegacyServoControllerActivity"
+257-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:125:13-98
+258            android:configChanges="orientation|screenSize"
+258-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:126:13-59
+259            android:label="@string/edit_servo_controller_activity"
+259-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:127:13-67
+260            android:windowSoftInputMode="stateHidden|adjustResize" >
+260-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:128:13-67
+261        </activity>
+262        <activity
+262-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:130:9-135:20
+263            android:name="com.qualcomm.ftccommon.configuration.EditServoListActivity"
+263-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:131:13-86
+264            android:configChanges="orientation|screenSize"
+264-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:132:13-59
+265            android:label="@string/edit_servo_controller_activity"
+265-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:133:13-67
+266            android:windowSoftInputMode="stateHidden|adjustResize" >
+266-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:134:13-67
+267        </activity>
+268        <activity
+268-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:136:9-141:20
+269            android:name="com.qualcomm.ftccommon.configuration.EditLegacyModuleControllerActivity"
+269-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:137:13-99
+270            android:configChanges="orientation|screenSize"
+270-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:138:13-59
+271            android:label="@string/edit_legacy_module_controller_activity"
+271-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:139:13-75
+272            android:windowSoftInputMode="stateHidden|adjustResize" >
+272-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:140:13-67
+273        </activity>
+274        <activity
+274-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:142:9-147:20
+275            android:name="com.qualcomm.ftccommon.configuration.EditMatrixControllerActivity"
+275-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:143:13-93
+276            android:configChanges="orientation|screenSize"
+276-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:144:13-59
+277            android:label="@string/edit_matrix_controller_activity"
+277-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:145:13-68
+278            android:windowSoftInputMode="stateHidden|adjustResize" >
+278-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:146:13-67
+279        </activity>
+280        <activity
+280-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:148:9-153:20
+281            android:name="com.qualcomm.ftccommon.configuration.EditDeviceInterfaceModuleActivity"
+281-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:149:13-98
+282            android:configChanges="orientation|screenSize"
+282-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:150:13-59
+283            android:label="@string/edit_core_device_interface_module_controller_activity"
+283-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:151:13-90
+284            android:windowSoftInputMode="stateHidden|adjustResize" >
+284-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:152:13-67
+285        </activity>
+286        <activity
+286-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:154:9-159:20
+287            android:name="com.qualcomm.ftccommon.configuration.EditLynxModuleActivity"
+287-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:155:13-87
+288            android:configChanges="orientation|screenSize"
+288-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:156:13-59
+289            android:label="@string/edit_lynx_module_controller_activity"
+289-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:157:13-73
+290            android:windowSoftInputMode="stateHidden|adjustResize" >
+290-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:158:13-67
+291        </activity>
+292        <activity
+292-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:160:9-165:20
+293            android:name="com.qualcomm.ftccommon.configuration.EditLynxUsbDeviceActivity"
+293-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:161:13-90
+294            android:configChanges="orientation|screenSize"
+294-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:162:13-59
+295            android:label="@string/edit_lynx_usb_device_activity"
+295-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:163:13-66
+296            android:windowSoftInputMode="stateHidden|adjustResize" >
+296-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:164:13-67
+297        </activity>
+298        <activity
+298-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:166:9-171:20
+299            android:name="com.qualcomm.ftccommon.configuration.EditWebcamActivity"
+299-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:167:13-83
+300            android:configChanges="orientation|screenSize"
+300-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:168:13-59
+301            android:label="@string/edit_webcam_activity"
+301-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:169:13-57
+302            android:windowSoftInputMode="stateHidden|adjustResize" >
+302-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:170:13-67
+303        </activity>
+304        <activity
+304-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:172:9-177:20
+305            android:name="com.qualcomm.ftccommon.configuration.EditPWMDevicesActivity"
+305-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:173:13-87
+306            android:configChanges="orientation|screenSize"
+306-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:174:13-59
+307            android:label="@string/edit_pwm_devices_activity"
+307-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:175:13-62
+308            android:windowSoftInputMode="stateHidden|adjustResize" >
+308-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:176:13-67
+309        </activity>
+310        <activity
+310-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:178:9-183:20
+311            android:name="com.qualcomm.ftccommon.configuration.EditAnalogInputDevicesActivity"
+311-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:179:13-95
+312            android:configChanges="orientation|screenSize"
+312-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:180:13-59
+313            android:label="@string/edit_analog_input_devices_activity"
+313-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:181:13-71
+314            android:windowSoftInputMode="stateHidden|adjustResize" >
+314-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:182:13-67
+315        </activity>
+316        <activity
+316-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:184:9-189:20
+317            android:name="com.qualcomm.ftccommon.configuration.EditDigitalDevicesActivity"
+317-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:185:13-91
+318            android:configChanges="orientation|screenSize"
+318-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:186:13-59
+319            android:label="@string/edit_digital_devices_activity"
+319-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:187:13-66
+320            android:windowSoftInputMode="stateHidden|adjustResize" >
+320-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:188:13-67
+321        </activity>
+322        <activity
+322-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:190:9-195:20
+323            android:name="com.qualcomm.ftccommon.configuration.EditDigitalDevicesActivityLynx"
+323-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:191:13-95
+324            android:configChanges="orientation|screenSize"
+324-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:192:13-59
+325            android:label="@string/edit_digital_devices_activity_lynx"
+325-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:193:13-71
+326            android:windowSoftInputMode="stateHidden|adjustResize" >
+326-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:194:13-67
+327        </activity>
+328        <activity
+328-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:196:9-201:20
+329            android:name="com.qualcomm.ftccommon.configuration.EditI2cDevicesActivity"
+329-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:197:13-87
+330            android:configChanges="orientation|screenSize"
+330-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:198:13-59
+331            android:label="@string/edit_i2c_devices_activity"
+331-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:199:13-62
+332            android:windowSoftInputMode="stateHidden|adjustResize" >
+332-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:200:13-67
+333        </activity>
+334        <activity
+334-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:202:9-207:20
+335            android:name="com.qualcomm.ftccommon.configuration.EditI2cDevicesActivityLynx"
+335-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:203:13-91
+336            android:configChanges="orientation|screenSize"
+336-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:204:13-59
+337            android:label="@string/edit_i2c_devices_activity"
+337-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:205:13-62
+338            android:windowSoftInputMode="stateHidden|adjustResize" >
+338-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:206:13-67
+339        </activity>
+340        <activity
+340-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:208:9-213:20
+341            android:name="com.qualcomm.ftccommon.configuration.EditAnalogOutputDevicesActivity"
+341-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:209:13-96
+342            android:configChanges="orientation|screenSize"
+342-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:210:13-59
+343            android:label="@string/edit_analog_output_devices_activity"
+343-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:211:13-72
+344            android:windowSoftInputMode="stateHidden|adjustResize" >
+344-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:212:13-67
+345        </activity> <!-- Assistant that autostarts the robot controller on android boot (if it's supposed to) -->
+346        <receiver
+346-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:216:9-227:20
+347            android:name="org.firstinspires.ftc.ftccommon.internal.RunOnBoot"
+347-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:217:13-78
+348            android:enabled="true"
+348-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:218:13-35
+349            android:exported="true"
+349-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:219:13-36
+350            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+350-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:220:13-75
+351            <intent-filter>
+351-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:221:13-226:29
+352                <category android:name="android.intent.category.DEFAULT" />
+352-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:222:17-76
+352-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:222:27-73
+353
+354                <action android:name="android.intent.action.BOOT_COMPLETED" />
+354-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:224:17-79
+354-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:224:25-76
+355                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+355-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:225:17-82
+355-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:225:25-79
+356            </intent-filter>
+357        </receiver> <!-- A service that will auto-restart the robot controller if it crashes (if it's supposed to) -->
+358        <service
+358-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:230:9-232:38
+359            android:name="org.firstinspires.ftc.ftccommon.internal.FtcRobotControllerWatchdogService"
+359-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:231:13-102
+360            android:enabled="true" />
+360-->[:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:232:13-35
+361
+362        <activity
+362-->[:Inspection-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/39e9c5a7f97a8f04077398f79f2dfa20/Inspection-release/AndroidManifest.xml:20:9-24:20
+363            android:name="org.firstinspires.inspection.DsInspectionActivity"
+363-->[:Inspection-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/39e9c5a7f97a8f04077398f79f2dfa20/Inspection-release/AndroidManifest.xml:21:13-77
+364            android:configChanges="orientation|screenSize"
+364-->[:Inspection-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/39e9c5a7f97a8f04077398f79f2dfa20/Inspection-release/AndroidManifest.xml:22:13-59
+365            android:label="@string/inspection_activity" >
+365-->[:Inspection-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/39e9c5a7f97a8f04077398f79f2dfa20/Inspection-release/AndroidManifest.xml:23:13-56
+366        </activity>
+367        <activity
+367-->[:Inspection-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/39e9c5a7f97a8f04077398f79f2dfa20/Inspection-release/AndroidManifest.xml:25:9-29:20
+368            android:name="org.firstinspires.inspection.RcInspectionActivity"
+368-->[:Inspection-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/39e9c5a7f97a8f04077398f79f2dfa20/Inspection-release/AndroidManifest.xml:26:13-77
+369            android:configChanges="orientation|screenSize"
+369-->[:Inspection-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/39e9c5a7f97a8f04077398f79f2dfa20/Inspection-release/AndroidManifest.xml:27:13-59
+370            android:label="@string/inspection_activity" >
+370-->[:Inspection-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/39e9c5a7f97a8f04077398f79f2dfa20/Inspection-release/AndroidManifest.xml:28:13-56
+371        </activity>
+372        <activity
+372-->[:Blocks-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/06adee229d95c6cc777cda857b986471/Blocks-release/AndroidManifest.xml:19:9-23:20
+373            android:name="org.firstinspires.ftc.ftccommon.internal.ProgramAndManageActivity"
+373-->[:Blocks-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/06adee229d95c6cc777cda857b986471/Blocks-release/AndroidManifest.xml:20:13-93
+374            android:configChanges="orientation|screenSize"
+374-->[:Blocks-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/06adee229d95c6cc777cda857b986471/Blocks-release/AndroidManifest.xml:21:13-59
+375            android:label="@string/program_and_manage_activity" >
+375-->[:Blocks-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/06adee229d95c6cc777cda857b986471/Blocks-release/AndroidManifest.xml:22:13-64
+376        </activity>
+377    </application>
+378
+379</manifest>

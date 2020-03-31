@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/build/intermediates/res/merged/debug/xml_teamwebcamcalibrations.xml.flat",
-        "source": "/Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml"
+        "merged": "/Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/build/intermediates/res/merged/debug/xml_teamwebcamcalibrations.xml.flat",
+        "source": "/Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/res/xml/teamwebcamcalibrations.xml"
     },
     {
-        "merged": "/Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/build/intermediates/res/merged/debug/raw_readme.md.flat",
-        "source": "/Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/res/raw/readme.md"
+        "merged": "/Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/build/intermediates/res/merged/debug/raw_readme.md.flat",
+        "source": "/Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/res/raw/readme.md"
     }
 ]

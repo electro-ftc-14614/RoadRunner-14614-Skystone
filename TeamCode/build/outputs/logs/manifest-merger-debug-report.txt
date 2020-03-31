@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
-INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
-INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
-INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
-MERGED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-65:12
+ADDED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
+INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
+INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
+INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
+MERGED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-65:12
 MERGED from [:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:2:1-116:12
 MERGED from [:Hardware-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/e63704b668800edbe193b2d635180f9a/Hardware-release/AndroidManifest.xml:2:1-11:12
 MERGED from [:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:3:1-235:12
@@ -22,27 +22,27 @@ MERGED from [com.android.support:support-compat:28.0.0] /Users/electrorobotics/.
 MERGED from [org.openftc:opencv-repackaged:4.1.0-B] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/81831a9665c1aa6f2ec805dfe977600c/opencv-repackaged-4.1.0-B/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/d107c5806233895e5be684de327d381f/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/0160f619c43aa1ecd28ae91ba8993552/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
-INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
-INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
+INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
+INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
+INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
 	package
-		ADDED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml:9:5-45
-		INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
-		INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
+		ADDED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml:9:5-45
+		INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml
+		INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
-		ADDED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
-		INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
+		INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml
+		ADDED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
+		INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
-		ADDED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
-		INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
+		INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml
+		ADDED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
+		INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml:10:5-63
+		ADDED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml:10:5-63
 application
-ADDED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml:11:5-19
-MERGED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-63:19
-MERGED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-63:19
+ADDED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml:11:5-19
+MERGED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-63:19
+MERGED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-63:19
 MERGED from [:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:86:5-114:19
 MERGED from [:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:86:5-114:19
 MERGED from [:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:23:5-233:19
@@ -60,23 +60,23 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/electrorobot
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/4e7b3bbed8e6e29e2ba6d4fc6e8eccff/support-compat-28.0.0/AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-41
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-41
 	android:largeHeap
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-33
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-33
 	android:icon
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-45
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-45
 	android:allowBackup
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-35
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-45
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-45
 	android:name
 		ADDED from [:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:86:18-97
 uses-sdk
-INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
-INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
-MERGED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
-MERGED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml
+INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml
+MERGED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
 MERGED from [:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:7:5-9:41
 MERGED from [:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:7:5-9:41
 MERGED from [:Hardware-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/e63704b668800edbe193b2d635180f9a/Hardware-release/AndroidManifest.xml:7:5-9:41
@@ -109,84 +109,84 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/electrorobot
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/d107c5806233895e5be684de327d381f/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/0160f619c43aa1ecd28ae91ba8993552/runtime-1.1.1/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/0160f619c43aa1ecd28ae91ba8993552/runtime-1.1.1/AndroidManifest.xml:20:5-44
-INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
-INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
+INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml
+INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
-		ADDED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
-		INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
+		INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml
+		ADDED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml
+		INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
-		ADDED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
-		INJECTED from /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/TeamCode/src/main/AndroidManifest.xml
+		INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml
+		ADDED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml
+		INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-81
+ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-78
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-78
 meta-data#org.firstinspires.latestSupportedControlHubVersion
-ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-24:33
+ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-24:33
 	android:value
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-30
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-30
 	android:name
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-78
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-78
 activity#org.firstinspires.ftc.robotcontroller.internal.PermissionValidatorWrapper
-ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-38:20
+ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-38:20
 	android:screenOrientation
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-49
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-49
 	android:label
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-45
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-45
 	android:launchMode
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-44
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-44
 	android:configChanges
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-59
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-59
 	android:name
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-101
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-101
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-37:29
+ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-37:29
 category#android.intent.category.LAUNCHER
-ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:17-77
+ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:27-74
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:27-74
 action#android.intent.action.MAIN
-ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-69
+ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:25-66
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:25-66
 activity#org.firstinspires.ftc.robotcontroller.internal.FtcRobotControllerActivity
-ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-57:20
+ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-57:20
 	android:screenOrientation
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:13-49
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:13-49
 	android:label
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-45
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-45
 	android:launchMode
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-44
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-44
 	android:configChanges
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-59
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-59
 	android:name
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-101
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-101
 intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-47:29
+ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-47:29
 action#android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:17-90
+ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:17-90
 	android:name
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:25-87
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:25-87
 meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
-ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:13-51:57
+ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:13-51:57
 	android:resource
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:17-54
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:17-54
 	android:name
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:50:17-79
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:50:17-79
 meta-data#org.firstinspires.main.entry
-ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:13-56:40
+ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:13-56:40
 	android:value
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:17-37
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:17-37
 	android:name
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:17-60
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:17-60
 service#com.qualcomm.ftccommon.FtcRobotControllerService
-ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:9-62:38
+ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:9-62:38
 	android:enabled
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:13-35
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:13-35
 	android:name
-		ADDED from [:FtcRobotController] /Users/electrorobotics/Downloads/Summer-2020-roadrunner-testing/road-runner-quickstart-master/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-76
+		ADDED from [:FtcRobotController] /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/FtcRobotController/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/6264edf77ed31f42dae3f2f8b7f254f1/RobotCore-release/AndroidManifest.xml:11:5-13:35
 MERGED from [:FtcCommon-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/2adbca610b0859c628f786d0adbaeba0/FtcCommon-release/AndroidManifest.xml:12:5-76

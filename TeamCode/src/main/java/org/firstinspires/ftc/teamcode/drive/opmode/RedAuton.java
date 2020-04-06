@@ -21,6 +21,7 @@ public class RedAuton extends LinearOpMode {
     private ElectroBot robot = new ElectroBot();  // Initializing our robot
     private DriveConstraints constraints = new DriveConstraints(50.0, 60.0, 0.0, Math.toRadians(270.0), Math.toRadians(270.0), 0.0);
     protected Pose2d startPose = new Pose2d(-36.0, -63.0, Math.toRadians(90.0));
+
     @Override
     public void runOpMode() throws InterruptedException {
         robot.init(hardwareMap);
@@ -188,11 +189,14 @@ public class RedAuton extends LinearOpMode {
                         .addDisplacementMarker(() -> {
                             robot.turnOnIntakeMotors();
                         })
+
                         .splineTo(new Pose2d(0.0,-36.0,Math.toRadians(180.0)))    //midpoint
 
                         .build();
 
         waitForStart();
+        //check camera
+        //switch trajectory to desired one
         drive.followTrajectory(traj1);
         if (isStopRequested()) return;
         drive.followTrajectory(traj2);

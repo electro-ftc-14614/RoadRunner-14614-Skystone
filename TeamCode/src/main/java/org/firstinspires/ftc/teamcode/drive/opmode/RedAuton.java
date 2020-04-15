@@ -33,7 +33,9 @@ public class RedAuton extends LinearOpMode {
                 new TrajectoryBuilder(startPose, false, constraints)
                         .lineTo(new Vector2d(-36.0,-33.0))  //sample
                         .addDisplacementMarker(() -> {
+
                             robot.turnOnIntakeMotors();
+
                              })
                         .splineTo(new Pose2d(-36.0,-24.0, Math.toRadians(-45.0)))   //get stone
                         .addDisplacementMarker(() -> {
@@ -190,7 +192,7 @@ public class RedAuton extends LinearOpMode {
                             robot.turnOnIntakeMotors();
                         })
 
-                        .splineTo(new Pose2d(0.0,-36.0,Math.toRadians(180.0)))    //midpoint
+                        .strafeTo(new Vector2d(0.0,-36.0))    //midpoint
 
                         .build();
 

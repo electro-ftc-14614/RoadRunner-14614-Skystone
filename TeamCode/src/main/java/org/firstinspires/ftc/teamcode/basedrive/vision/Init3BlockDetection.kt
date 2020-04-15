@@ -3,7 +3,7 @@ package org.firstinspires.ftc.teamcode.basedrive.vision
 import org.openftc.easyopencv.OpenCvPipeline
 
 abstract class Init3BlockDetection : OpenCvPipeline() {
-    private val stoneRowMaxWidth = 6
+    private val stoneRowMaxWidth = 8
 
     var detectedSkystonePosition = -1
 
@@ -15,9 +15,9 @@ abstract class Init3BlockDetection : OpenCvPipeline() {
         var secondSkystonePosition: Int
 
         if(firstSkystonePosition >= stoneRowMaxWidth / 2) {
-            secondSkystonePosition = firstSkystonePosition - 3
+            secondSkystonePosition = firstSkystonePosition - 4
         } else {
-            secondSkystonePosition = firstSkystonePosition + 3
+            secondSkystonePosition = firstSkystonePosition + 4
         }
 
         val skystonePositions = arrayOf(firstSkystonePosition, secondSkystonePosition)

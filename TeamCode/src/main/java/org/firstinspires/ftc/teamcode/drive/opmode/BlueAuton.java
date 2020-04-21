@@ -52,7 +52,8 @@ public class BlueAuton extends LinearOpMode {
                 .addSpatialMarker(new Vector2d(0, 20), () -> {
                     robot.setWGToUpPosition();
                 })
-                .splineTo(new Pose2d(-35,34,Math.toRadians(90))) //midpoint
+                //.splineTo(new Pose2d(-35,34,Math.toRadians(90))) //midpoint
+                .splineToLinearHeading(new Pose2d(-35,34,Math.toRadians(90)),90.0)
                 //turn on intake
                 .addSpatialMarker(new Vector2d(0, 20), () -> {
                     robot.turnOnIntakeMotors();

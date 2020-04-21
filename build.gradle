@@ -9,7 +9,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.6.1'
+        classpath 'com.android.tools.build:gradle:3.6.3'
         //implementation 'com.arcrobotics:ftclib:2.0.11' // Replace 2.0.11 with the latest release
     }
 }

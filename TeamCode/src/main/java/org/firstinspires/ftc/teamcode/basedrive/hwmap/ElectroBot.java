@@ -61,7 +61,10 @@ import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
  * ALL MOTORS/SERVOS/SENSORS SHOULD BE DEFINED AND INITIALIZED IN THIS CLASS.
  * THIS CLASS SHOULD BE USED IN ALL OPMODES.
  */
-public class ElectroBot {
+
+
+
+public  class ElectroBot {
     public static final String LOGTAG = "ElectroBot" ;
     //Using Android's built-in Logging functionality. Need to define a tag
     //static final String LOGTAG = "ElectroBot";

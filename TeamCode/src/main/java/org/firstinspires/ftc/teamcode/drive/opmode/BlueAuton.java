@@ -126,6 +126,7 @@ public class BlueAuton extends LinearOpMode {
 
                 .build();
         drive.followTrajectory(traj);
+
         this.sleep(1000);
 
 //        drive.followTrajectory(

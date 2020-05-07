@@ -64,7 +64,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
 
 
 
-public  class ElectroBot {
+public class ElectroBot {
     public static final String LOGTAG = "ElectroBot" ;
     //Using Android's built-in Logging functionality. Need to define a tag
     //static final String LOGTAG = "ElectroBot";
@@ -94,7 +94,7 @@ public  class ElectroBot {
     private Servo turner = null;
     private CRServo wml = null;
     private CRServo wmr = null;
-    public CRServo aem = null;
+    private CRServo aem = null;
     private CRServo tmm = null;
     private Servo fsl = null;
     private Servo fsr = null;

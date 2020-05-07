@@ -203,6 +203,7 @@ public class Electro_TeleOp extends LinearOpMode {
             liftmotorTicks = robot.getLiftMotorEncoderPositions();
             if (liftmotorTicks[0] == 0)
                 liftmotorTicks[0] = 1;
+
             if (liftmotorTicks[1] == 0)
                 liftmotorTicks[1] = 1;
 
@@ -229,10 +230,11 @@ public class Electro_TeleOp extends LinearOpMode {
                 //Log.i(ElectroBot.LOGTAG, "Powers LLM: " + llmPower + " RLM: " + rlmPower + "Right2Y: " + right2y);
             } else {
                  if(liftmotorTicks[1] <= -3280){
-                     Log.i (ElectroBot.LOGTAG, "Passing oonstant power to LLM");
+                     Log.i (ElectroBot.LOGTAG, "Passing constant power to LLM");
                     llmPower = -.1;
                      rlmPower = 0;
-                } else {
+                }
+                 else {
                      llmPower = 0;
                      rlmPower = 0;
                  }
@@ -353,8 +355,6 @@ public class Electro_TeleOp extends LinearOpMode {
             if (gamepad2.y) {
                 //Log.i(ElectroBot.LOGTAG, "Dropping Capstone");
                 robot.dropCapstone();
-
-
             }
             if (gamepad2.b) {
                 //Log.i(ElectroBot.LOGTAG, "Picking Capstone Back Up");

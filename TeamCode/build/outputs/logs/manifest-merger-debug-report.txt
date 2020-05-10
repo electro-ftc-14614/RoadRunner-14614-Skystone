@@ -12,6 +12,7 @@ MERGED from [:WirelessP2p-release:] /Users/electrorobotics/.gradle/caches/transf
 MERGED from [:tfod-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/241c616e396499d06188c6dc02555f03/tfod-release/AndroidManifest.xml:2:1-11:12
 MERGED from [:tensorflow-lite-0.0.0-nightly:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/7b4c311e2d99b0d5d78be3749c890f0f/tensorflow-lite-0.0.0-nightly/AndroidManifest.xml:2:1-6:12
 MERGED from [com.acmerobotics.dashboard:dashboard:0.3.8] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/c45a6286cb0362666928c080d9324075/dashboard-0.3.8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.spartronics4915.lib:ftc265:1.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/730a6bfe6afe5b0c47a763ffe991813b/ftc265-1.0.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.arcrobotics:ftclib:2.0.11] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/73def726cd2fd049f426e8a9a2c6bd2e/ftclib-2.0.11/AndroidManifest.xml:2:1-11:12
 MERGED from [org.openftc:easyopencv:1.3.2] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/4809facc344339fa73a019528f6352d4/easyopencv-1.3.2/AndroidManifest.xml:2:1-11:12
 MERGED from [:Inspection-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/f615bbb2196bd1383cc97f09e04c2025/Inspection-release/AndroidManifest.xml:2:1-32:12
@@ -20,6 +21,7 @@ MERGED from [:RobotServer-release:] /Users/electrorobotics/.gradle/caches/transf
 MERGED from [:OnBotJava-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/d494a26504a8ca3fd5175716a3e56d30/OnBotJava-release/AndroidManifest.xml:34:1-43:12
 MERGED from [com.android.support:support-compat:28.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/f1491a81a65d4033a56d6549564e765e/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [org.openftc:opencv-repackaged:4.1.0-B] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/04742582d43733d1abe89b12b3659fef/opencv-repackaged-4.1.0-B/AndroidManifest.xml:2:1-11:12
+MERGED from [com.intel.realsense:librealsense:2.34.0-ftc265] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/7096ec6f08609f34c1f6acb58d5ab62c/librealsense-2.34.0-ftc265/AndroidManifest.xml:2:1-28:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/570f380f669baa59f32226e888be52bf/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/b311143dc2c62f3cfa82e637e46d679c/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/electrorobotics/Documents/GitHub/RoadRunner-14614/TeamCode/src/main/AndroidManifest.xml:8:1-12:12
@@ -55,8 +57,12 @@ MERGED from [:Blocks-release:] /Users/electrorobotics/.gradle/caches/transforms-
 MERGED from [:Blocks-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/5767616840f6941f0ee9e9457e56ab1b/Blocks-release/AndroidManifest.xml:18:5-24:19
 MERGED from [com.android.support:support-compat:28.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/f1491a81a65d4033a56d6549564e765e/support-compat-28.0.0/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/f1491a81a65d4033a56d6549564e765e/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.intel.realsense:librealsense:2.34.0-ftc265] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/7096ec6f08609f34c1f6acb58d5ab62c/librealsense-2.34.0-ftc265/AndroidManifest.xml:11:5-26:19
+MERGED from [com.intel.realsense:librealsense:2.34.0-ftc265] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/7096ec6f08609f34c1f6acb58d5ab62c/librealsense-2.34.0-ftc265/AndroidManifest.xml:11:5-26:19
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/570f380f669baa59f32226e888be52bf/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/570f380f669baa59f32226e888be52bf/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+	android:supportsRtl
+		ADDED from [com.intel.realsense:librealsense:2.34.0-ftc265] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/7096ec6f08609f34c1f6acb58d5ab62c/librealsense-2.34.0-ftc265/AndroidManifest.xml:13:9-35
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/f1491a81a65d4033a56d6549564e765e/support-compat-28.0.0/AndroidManifest.xml:22:18-91
 	android:label
@@ -89,6 +95,8 @@ MERGED from [:tfod-release:] /Users/electrorobotics/.gradle/caches/transforms-2/
 MERGED from [:tfod-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/241c616e396499d06188c6dc02555f03/tfod-release/AndroidManifest.xml:7:5-9:41
 MERGED from [com.acmerobotics.dashboard:dashboard:0.3.8] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/c45a6286cb0362666928c080d9324075/dashboard-0.3.8/AndroidManifest.xml:5:5-7:41
 MERGED from [com.acmerobotics.dashboard:dashboard:0.3.8] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/c45a6286cb0362666928c080d9324075/dashboard-0.3.8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.spartronics4915.lib:ftc265:1.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/730a6bfe6afe5b0c47a763ffe991813b/ftc265-1.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.spartronics4915.lib:ftc265:1.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/730a6bfe6afe5b0c47a763ffe991813b/ftc265-1.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.arcrobotics:ftclib:2.0.11] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/73def726cd2fd049f426e8a9a2c6bd2e/ftclib-2.0.11/AndroidManifest.xml:7:5-9:41
 MERGED from [com.arcrobotics:ftclib:2.0.11] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/73def726cd2fd049f426e8a9a2c6bd2e/ftclib-2.0.11/AndroidManifest.xml:7:5-9:41
 MERGED from [org.openftc:easyopencv:1.3.2] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/4809facc344339fa73a019528f6352d4/easyopencv-1.3.2/AndroidManifest.xml:7:5-9:41
@@ -105,6 +113,8 @@ MERGED from [com.android.support:support-compat:28.0.0] /Users/electrorobotics/.
 MERGED from [com.android.support:support-compat:28.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/f1491a81a65d4033a56d6549564e765e/support-compat-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [org.openftc:opencv-repackaged:4.1.0-B] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/04742582d43733d1abe89b12b3659fef/opencv-repackaged-4.1.0-B/AndroidManifest.xml:7:5-9:41
 MERGED from [org.openftc:opencv-repackaged:4.1.0-B] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/04742582d43733d1abe89b12b3659fef/opencv-repackaged-4.1.0-B/AndroidManifest.xml:7:5-9:41
+MERGED from [com.intel.realsense:librealsense:2.34.0-ftc265] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/7096ec6f08609f34c1f6acb58d5ab62c/librealsense-2.34.0-ftc265/AndroidManifest.xml:7:5-9:41
+MERGED from [com.intel.realsense:librealsense:2.34.0-ftc265] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/7096ec6f08609f34c1f6acb58d5ab62c/librealsense-2.34.0-ftc265/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/570f380f669baa59f32226e888be52bf/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/570f380f669baa59f32226e888be52bf/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/b311143dc2c62f3cfa82e637e46d679c/runtime-1.1.1/AndroidManifest.xml:20:5-44
@@ -279,6 +289,8 @@ ADDED from [:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transform
 		ADDED from [:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/ab8631412d29097820db62a38761d6b2/RobotCore-release/AndroidManifest.xml:53:9-52
 uses-permission#android.permission.CAMERA
 ADDED from [:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/ab8631412d29097820db62a38761d6b2/RobotCore-release/AndroidManifest.xml:55:5-65
+MERGED from [com.spartronics4915.lib:ftc265:1.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/730a6bfe6afe5b0c47a763ffe991813b/ftc265-1.0.0/AndroidManifest.xml:11:5-65
+MERGED from [com.spartronics4915.lib:ftc265:1.0.0] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/730a6bfe6afe5b0c47a763ffe991813b/ftc265-1.0.0/AndroidManifest.xml:11:5-65
 	android:name
 		ADDED from [:RobotCore-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/ab8631412d29097820db62a38761d6b2/RobotCore-release/AndroidManifest.xml:55:22-62
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
@@ -723,3 +735,11 @@ ADDED from [:Blocks-release:] /Users/electrorobotics/.gradle/caches/transforms-2
 		ADDED from [:Blocks-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/5767616840f6941f0ee9e9457e56ab1b/Blocks-release/AndroidManifest.xml:21:13-59
 	android:name
 		ADDED from [:Blocks-release:] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/5767616840f6941f0ee9e9457e56ab1b/Blocks-release/AndroidManifest.xml:20:13-93
+activity#com.intel.realsense.librealsense.DeviceWatcherActivity
+ADDED from [com.intel.realsense:librealsense:2.34.0-ftc265] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/7096ec6f08609f34c1f6acb58d5ab62c/librealsense-2.34.0-ftc265/AndroidManifest.xml:14:9-25:20
+	android:theme
+		ADDED from [com.intel.realsense:librealsense:2.34.0-ftc265] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/7096ec6f08609f34c1f6acb58d5ab62c/librealsense-2.34.0-ftc265/AndroidManifest.xml:17:13-59
+	android:directBootAware
+		ADDED from [com.intel.realsense:librealsense:2.34.0-ftc265] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/7096ec6f08609f34c1f6acb58d5ab62c/librealsense-2.34.0-ftc265/AndroidManifest.xml:16:13-43
+	android:name
+		ADDED from [com.intel.realsense:librealsense:2.34.0-ftc265] /Users/electrorobotics/.gradle/caches/transforms-2/files-2.1/7096ec6f08609f34c1f6acb58d5ab62c/librealsense-2.34.0-ftc265/AndroidManifest.xml:15:13-82

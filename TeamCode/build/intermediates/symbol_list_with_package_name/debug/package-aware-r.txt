@@ -479,6 +479,7 @@ layout webcam_device
 menu ftc_robot_controller
 menu main_menu
 menu menu_server
+mipmap ic_launcher
 raw chimeconnect
 raw chimedisconnect
 raw color_fragment_shader
@@ -1219,3 +1220,4 @@ xml pushbotsens
 xml rev_scoot
 xml squarebot
 xml teamwebcamcalibrations
+xml usb_filter

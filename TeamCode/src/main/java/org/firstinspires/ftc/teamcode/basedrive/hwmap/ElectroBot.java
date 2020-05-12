@@ -83,34 +83,15 @@ public class ElectroBot {
     private DcMotorEx fr = null;
     private DcMotorEx bl = null;
     private DcMotorEx br = null;
-    private DcMotorEx llm = null;
-    private DcMotorEx rlm = null;
-    private DcMotorEx lim = null;
-    private DcMotorEx rim = null;
     private BNO055IMU gyro = null;
-    private Servo wgr = null;
-    private Servo wgl = null;
-    private Servo gripper = null;
-    private Servo turner = null;
-    private CRServo wml = null;
-    private CRServo wmr = null;
-    private CRServo aem = null;
-    private CRServo tmm = null;
-    private Servo fsl = null;
-    private Servo fsr = null;
-    private Servo css = null;
-    private ColorSensor colorSensor1 = null;
-    private ColorSensor colorSensor2 = null;
 
     private HardwareMap hwMap = null;
     private ElapsedTime runTime = new ElapsedTime();
     private Orientation lastAngles;
     private double curHeading = 0.0;
 
-    private float[] hsvValues = {0F, 0F, 0F};
 
-    // values is a reference to the hsvValues array.
-    private final float[] values = hsvValues;
+
     /* Constructor */
     public ElectroBot() {
 
@@ -132,24 +113,7 @@ public class ElectroBot {
             fr = hwMap.get(DcMotorEx.class, "FR");
             bl = hwMap.get(DcMotorEx.class, "BL");
             br = hwMap.get(DcMotorEx.class, "BR");
-            llm = hwMap.get(DcMotorEx.class, "LLM");
-            rlm = hwMap.get(DcMotorEx.class, "RLM");
-            lim = hwMap.get(DcMotorEx.class, "LIM");
-            rim = hwMap.get(DcMotorEx.class, "RIM");
-            wgl = hwMap.get(Servo.class, "WGL");
-            wgr = hwMap.get(Servo.class, "WGR");
-            turner = hwMap.get(Servo.class, "TURNER");
-            gripper = hwMap.get(Servo.class, "GRIPPER");
-            wml = hwMap.get(CRServo.class, "WML");
-            wmr = hwMap.get(CRServo.class, "WMR");
-            aem = hwMap.get(CRServo.class, "AEM");
-            tmm = hwMap.get(CRServo.class,"TMM");
-            fsl = hwMap.get(Servo.class, "FSL");
-            fsr = hwMap.get(Servo.class, "FSR");
-            css = hwMap.get(Servo.class, "CSS");
 
-            colorSensor1 = hwMap.get(ColorSensor.class, "CS1");
-            colorSensor2 = hwMap.get(ColorSensor.class, "CS2");
 
             //Initialize IMU
             Log.v(LOGTAG, "Initialize IMU");
@@ -174,29 +138,14 @@ public class ElectroBot {
             bl.setDirection(DcMotorEx.Direction.FORWARD);
             fr.setDirection(DcMotorEx.Direction.REVERSE);
             br.setDirection(DcMotorEx.Direction.REVERSE);
-            llm.setDirection(DcMotor.Direction.REVERSE);
-            rlm.setDirection(DcMotor.Direction.FORWARD);
-            lim.setDirection(DcMotor.Direction.FORWARD);
-            rim.setDirection(DcMotor.Direction.REVERSE);
+
             fl.setTargetPositionTolerance(12);
             bl.setTargetPositionTolerance(12);
             fr.setTargetPositionTolerance(12);
             br.setTargetPositionTolerance(12);
 
 
-            wgl.setDirection(Servo.Direction.FORWARD);
-            wgr.setDirection(Servo.Direction.REVERSE);
-            gripper.setDirection(Servo.Direction.FORWARD);
-            turner.setDirection(Servo.Direction.FORWARD);
-            fsl.setDirection(Servo.Direction.FORWARD);
-            fsr.setDirection(Servo.Direction.REVERSE);
-            css.setDirection(Servo.Direction.FORWARD);
 
-
-            wml.setDirection(CRServo.Direction.REVERSE);
-            wmr.setDirection(CRServo.Direction.FORWARD);
-            aem.setDirection(CRServo.Direction.FORWARD);
-            tmm.setDirection(CRServo.Direction.FORWARD);
         /*
         Reset all motors speed = 0 and reset encoder ticks. This is our starting position.
          */
@@ -204,19 +153,12 @@ public class ElectroBot {
             fr.setPower(0);
             bl.setPower(0);
             br.setPower(0);
-            llm.setPower(0);
-            rlm.setPower(0);
-            rim.setPower(0);
-            lim.setPower(0);
+
 
             fl.setMode(DcMotorEx.RunMode.RUN_WITHOUT_ENCODER);
             fr.setMode(DcMotorEx.RunMode.RUN_WITHOUT_ENCODER);
             bl.setMode(DcMotorEx.RunMode.RUN_WITHOUT_ENCODER);
             br.setMode(DcMotorEx.RunMode.RUN_WITHOUT_ENCODER);
-            llm.setMode(DcMotorEx.RunMode.RUN_WITHOUT_ENCODER);
-            rlm.setMode(DcMotorEx.RunMode.RUN_WITHOUT_ENCODER);
-            rim.setMode(DcMotorEx.RunMode.RUN_WITHOUT_ENCODER);
-            lim.setMode(DcMotorEx.RunMode.RUN_WITHOUT_ENCODER);
 
 
             Log.i(LOGTAG, "Setting 0 power behaviour");
@@ -224,17 +166,8 @@ public class ElectroBot {
             bl.setZeroPowerBehavior(DcMotorEx.ZeroPowerBehavior.BRAKE);
             fr.setZeroPowerBehavior(DcMotorEx.ZeroPowerBehavior.BRAKE);
             br.setZeroPowerBehavior(DcMotorEx.ZeroPowerBehavior.BRAKE);
-            llm.setZeroPowerBehavior(DcMotorEx.ZeroPowerBehavior.BRAKE);
-            rlm.setZeroPowerBehavior(DcMotorEx.ZeroPowerBehavior.BRAKE);
-            lim.setZeroPowerBehavior(DcMotorEx.ZeroPowerBehavior.BRAKE);
-            rim.setZeroPowerBehavior(DcMotorEx.ZeroPowerBehavior.BRAKE);
 
             Log.i(LOGTAG, "Setting Servo's to Default position");
-            this.setWGToUpPosition();
-            this.resetTurnerServoPosition();
-            this.resetGripperServoPosition();
-            this.resetFlipServoPosition();
-            this.holdCapstone();
 
         } catch (Exception ex) {
             Log.e(LOGTAG, "Exception", ex);
@@ -248,12 +181,6 @@ public class ElectroBot {
         br.setMode(DcMotorEx.RunMode.STOP_AND_RESET_ENCODER);
     }
 
-    public void resetLiftMotorEncoders() {
-        llm.setMode(DcMotorEx.RunMode.STOP_AND_RESET_ENCODER);
-        rlm.setMode(DcMotorEx.RunMode.STOP_AND_RESET_ENCODER);
-        llm.setMode(DcMotorEx.RunMode.RUN_WITHOUT_ENCODER);
-        rlm.setMode(DcMotorEx.RunMode.RUN_WITHOUT_ENCODER);
-    }
 
     public void setDriveMode(DcMotor.RunMode mode) {
 
@@ -329,17 +256,7 @@ public class ElectroBot {
 
     //public void setmotorpidf();
 
-    public void setLiftMotorPower(double llmPower, double rlmPower) {
-        if (llmPower != 0 && rlmPower != 0)
-            Log.v(LOGTAG, "LLM: " + llmPower + "; RLM: " + rlmPower);
-        llm.setPower(llmPower);
-        rlm.setPower(rlmPower);
-    }
 
-    public void setIntakeMotorPower(double limPower, double rimPower) {
-        lim.setPower(limPower);
-        rim.setPower(rimPower);
-    }
 
     //Distance to travel(Forward or Back) in inches
     public void setTravelDistance(double distance) {
@@ -367,23 +284,8 @@ public class ElectroBot {
         br.setTargetPosition(br.getCurrentPosition() + (int) (1 * distance * COUNTS_PER_INCH));
     }
 
-    public void setWheelServos(double power) {
 
-        wmr.setPower(power);
-        wml.setPower(power);
-    }
 
-    public void setArmServos(double power) {
-        aem.setPower(power);
-    }
-    public double getcssposition(){
-        double y;
-        y=css.getPosition();
-        return y;
-    }
-    public void setTMMPower(double power){
-        tmm.setPower(Range.clip(power*1.5,-.9,.9));
-    }
 
     public boolean isRobotMoving() {
         boolean retVal = false;
@@ -418,95 +320,8 @@ public class ElectroBot {
 
         return dmEncoderticks;
     }
-    public void moveLift(double inches, double speed)
-    {
-        int position = (int) inches*136;
-        //setLiftMotorMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
-
-        setLiftMotorMode(DcMotorEx.RunMode.RUN_USING_ENCODER);
 
 
-        setLiftMotorEncoderPosition(-position);
-
-        setLiftMotorMode(DcMotorEx.RunMode.RUN_TO_POSITION);
-        setLiftMotorPower(-speed, -speed);
-
-    }
-
-    public int[] getLiftMotorEncoderPositions() {
-        int[] lmEncoderticks = new int[2];
-
-        lmEncoderticks[0] = llm.getCurrentPosition();
-        lmEncoderticks[1] = rlm.getCurrentPosition();
-
-        return lmEncoderticks;
-    }
-
-    public void setLiftMotorMode(DcMotor.RunMode mode) {
-
-        Log.v(LOGTAG, "Setting Lift Motor mode to: " + mode.toString());
-        llm.setMode(mode);
-        rlm.setMode(mode);
-    }
-
-
-    public void setLiftMotorEncoderPosition(int position) {
-        this.setLiftMotorEncoderPosition(position, position);
-    }
-
-    public void setLiftMotorEncoderPosition(int lmPos, int rmPos) {
-//        llm.setTargetPosition(llm.getCurrentPosition() + lmPos);
-//        rlm.setTargetPosition(rlm.getCurrentPosition() + rmPos);
-        llm.setTargetPosition(lmPos);
-        rlm.setTargetPosition(rmPos);
-    }
-
-    public void setWGToUpPosition() {
-        wgl.setPosition(0.4);
-        wgr.setPosition(0.4);
-    }
-
-    public void setWGToDownPosition() {
-        wgl.setPosition(0.9);
-        wgr.setPosition(0.9);
-    }
-
-    public void setWGToMidPosition() {
-        wgl.setPosition(0.56);
-        wgr.setPosition(0.62);
-    }
-
-    public void holdCapstone() {
-        //Old Vale: 0.15
-        //Log.i(ElectroBot.LOGTAG, "HOLDING CAPSTONE");
-        css.setPosition(0.85);
-
-    }
-
-    public void dropCapstone() {
-        //Old Value 0.85
-        //Log.i(ElectroBot.LOGTAG, "Dropping CAPSTONE");
-        css.setPosition(0.15);
-    }
-
-
-
-    public void setTurnerServoPosition() {
-        //Old Value: 0.57
-        turner.setPosition(0.07);
-    }
-
-    public void resetTurnerServoPosition() {
-        //Old Value 0.07
-        turner.setPosition(0.57);
-    }
-
-    public void setGripperServoPosition() {
-        gripper.setPosition(0.88);
-    }
-    public void resetGripperServoPosition() {
-        gripper.setPosition(0.5);
-    }
 
 
 
@@ -549,93 +364,6 @@ public class ElectroBot {
 
     }
 
-    public void setFlipServoPosition() {
-
-        fsl.setPosition(.9);
-        fsr.setPosition(1);
-    }
-
-    public void resetFlipServoPosition() {
-        fsl.setPosition(.6);
-        fsr.setPosition(.725);
-
-    }
-
-    public double[] getServoPositions() {
-        double[] sPos = new double[4];
-
-        sPos[0] = fsl.getPosition();
-        sPos[1] = fsr.getPosition();
-        sPos[2] = wgl.getPosition();
-        sPos[3] = wgr.getPosition();
-
-        return sPos;
-    }
-
-    public boolean isYellow(int colorsensor) {
-        int colorHSV;
-        int R;
-        int G;
-        int Alpha;
-
-        final double SCALE_FACTOR = 255;
-
-
-
-        if (colorsensor == 1) {
-            Color.RGBToHSV((int) (colorSensor1.red() * SCALE_FACTOR),
-                    (int) (colorSensor1.green() * SCALE_FACTOR),
-                    (int) (colorSensor1.blue() * SCALE_FACTOR),
-                    hsvValues);
-
-            R = colorSensor1.red();
-            G = colorSensor1.green();
-            Alpha = colorSensor1.alpha();
-        } else {
-            Color.RGBToHSV((int) (colorSensor2.red() * SCALE_FACTOR),
-                    (int) (colorSensor2.green() * SCALE_FACTOR),
-                    (int) (colorSensor2.blue() * SCALE_FACTOR),
-                    hsvValues);
-
-            R = colorSensor2.red();
-            G = colorSensor2.green();
-            Alpha = colorSensor2.alpha();
-        }
-
-
-
-        Log.i(ElectroBot.LOGTAG, "Red = " + R + ":: G = " + G + ":: Alpha = " + Alpha + " ColorSensor = " + colorsensor + "Total: " + (R + G + Alpha));
-        //Log.i(ElectroBot.LOGTAG, "H: " + hsvValues[0] + " ,S: " + hsvValues[1] + " , V: " + hsvValues[2]);
-
-        //return (R >= 10 && G >= 10 && Alpha >= 10);
-        return (R + G + Alpha >= 30);
-    }
-
-    public double getColorSensorRatio() {
-
-        double cs1;
-        double cs2;
-        int R1, R2;
-        int G1, G2;
-        int A1, A2;
-
-        R1 = colorSensor1.red();
-        G1 = colorSensor1.green();
-        A1 = colorSensor1.alpha();
-
-        R2 = colorSensor2.red();
-        G2 = colorSensor2.green();
-        A2 = colorSensor2.alpha();
-
-        cs1 = R1 + G1 + A1;
-        cs2 = R2 + G2 + A2;
-
-        Log.i(ElectroBot.LOGTAG, "ColorValues: CS1: Total:: "+cs1+":: CS2:: "+cs2+":: Ratio:: "+(cs1/cs2));
-        Log.i(ElectroBot.LOGTAG, "ColorValues: CS1:  Red :: " + R1 + ":: Green :: " + G1 + ":: Alpha :: " + A1);
-        Log.i(ElectroBot.LOGTAG, "ColorValues: CS2:  Red :: " + R2 + ":: Green :: " + G2 + ":: Alpha :: " + A2);
-        return cs1/cs2;
-
-    }
 
     public boolean isGyroCalibrated() {
         return gyro.isGyroCalibrated();
@@ -654,14 +382,6 @@ public class ElectroBot {
         dpow[3] = br.getPower();
 
         return dpow;
-    }
-
-    public boolean isLiftMoving() {
-        boolean retVal = false;
-        if (llm.isBusy() && rlm.isBusy())
-            retVal = true;
-
-        return retVal;
     }
 
     public void turnCounterClockwise(double turnAngle, double power) {

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/FtcRobotController.iml" filepath="$PROJECT_DIR$/FtcRobotController/FtcRobotController.iml" group="RoadRunner-14614/FtcRobotController" />
-      <module fileurl="file://$PROJECT_DIR$/RoadRunner-14614.iml" filepath="$PROJECT_DIR$/RoadRunner-14614.iml" group="RoadRunner-14614" />
-      <module fileurl="file://$PROJECT_DIR$/TeamCode/TeamCode.iml" filepath="$PROJECT_DIR$/TeamCode/TeamCode.iml" group="RoadRunner-14614/TeamCode" />
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/FtcRobotController.iml" filepath="$PROJECT_DIR$/FtcRobotController/FtcRobotController.iml" group="RoadRunner-14614-Skystone/FtcRobotController" />
+      <module fileurl="file://$PROJECT_DIR$/RoadRunner-14614-Skystone.iml" filepath="$PROJECT_DIR$/RoadRunner-14614-Skystone.iml" group="RoadRunner-14614-Skystone" />
+      <module fileurl="file://$PROJECT_DIR$/TeamCode/TeamCode.iml" filepath="$PROJECT_DIR$/TeamCode/TeamCode.iml" group="RoadRunner-14614-Skystone/TeamCode" />
     </modules>
   </component>
 </project>

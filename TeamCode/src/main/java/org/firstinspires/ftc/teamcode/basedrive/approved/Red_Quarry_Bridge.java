@@ -750,7 +750,7 @@ public class Red_Quarry_Bridge extends LinearOpMode {
             //int[] motorTicks = robot.getDriveMotorEncoderPositions();
             //telemetry.addData("Positioning", ":%7d :%7d :%7d :%7d", motorTicks[0], motorTicks[1], motorTicks[2], motorTicks[3]);
             error = headingToUse - robot.getYaw();
-            if(encoderticks1/targetpos<0.75){
+            if((encoderticks1/targetpos) <0.75){
                 if (local_speed < speed)
                     local_speed += SPEED_INCR;
 
